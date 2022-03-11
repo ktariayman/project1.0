@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    height: 100vh;
+}
+
+a{
+    width:100%;
+    text-decoration:none;
+    color: #fff;
+}
+a:hover{
+    color:#ff5722;
+  
+}
+
+/*left*/
+
+
+.left{
+    background-color: #ff5722;
+    position: fixed;
+    width: 20%;
+    height: 3000px;
+    color: #fff;
+}
+
+
+
+.left h1 {
+    padding: 20px;
+}
+
+.left ul{
+    margin-top: 50%;
+}
+.left li {
+     padding:10px 0 ;
+     text-align: center;
+     font-size: large;
+}
+
+ .left li:hover {
+     background-color: #fff ;
+     color :#ff5722 ;
+     transition: 0.3s linear;
+     cursor: pointer;
+ }
+
+ /*right*/
+.right {
+    padding: 20px;
+    margin-left: 20%;
+}
+
+.right .home {
+    padding: 30px;
+    font-size:70px;
+}
+
+.right .element {
+    padding:10px;
+    font-style: large;
+    font-size:xx-large ;
+    color: #ff5722 ;
+}
+/*Showcase*/
+.right .Showcase {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.right .Showcase .img {
+    width: 170px;
+    padding:0 20px;
+}
+.right .Showcase .img:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+    
+}
+/*Services*/
+.p{
+    padding:10px;
+    font-size:large
+}
+
+.right .designer{
+    width:20%;
+    background-color: #f1f1f1 !important;
+    padding:50px;
+}
+
+.type{
+    padding:30px  ;
+    width: 450px;
+    height: 70px;
+    text-align: center;
+}
+
+.type1
+{
+    background-color:#616161 ;
+}
+.type2{
+    background-color:#ff5722 ;
+    color: #fff;
+}
+
+/*package*/
+.package{
+    background-color:#f1f1f1 ;
+    text-align: center ;
+}
+
+.package div{
+    padding:20px 0px ;
+}
+
+.package div p{
+    opacity: 0.60 ;
+}
+
+.package .btn1{
+    background-color: #fff;
+    color: #000;
+    
+}
+.btn{
+    border: none;
+    width: 100px;
+    height: 40px;
+}
+.package .btn1:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.package .btn2{
+    border: none;
+    background-color: #ff5722;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+}
+
+.package .btn2:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+/*contact*/
+form{
+    width: 80%;
+}
+input{
+    width: 100%;
+    height: 30px;
+}
+#submit{
+    height: 30px;
+    border: none;
+    background-color: #ff5722;
+    color: #fff;
+}
+#submit:hover{
+    background-color: #616161;
+    color: #000;
+}
+
+/*media*/
+
+@media only screen and (max-width:800px){
+    .left{
+        width: 30%;
+}
+   .right{ 
+       margin-left: 30%; 
+
+}
+}
+
+@media only screen and (max-width:600px){
+    .left{
+    display: none ;
+}
+   .right{
+    margin-left: 0; 
+}
+}
